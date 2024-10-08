@@ -6,6 +6,4 @@ const students = [
 ];
 
 const topStudents = students.filter((student) => student.grade > 80);
-console.log(topStudents);
 const youngStudents = students.filter((student) => student.age <= 21);
-console.log(youngStudents);
